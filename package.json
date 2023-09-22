@@ -1,0 +1,26 @@
+{
+  "name": "cypress_e2e",
+  "version": "1.0.0",
+  "description": "Section 4 E2E",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "e2e",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.1",
+    "cypress-file-upload": "^5.0.8",
+    "D": "^1.0.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "faker": "^6.6.6"
+  }
+}
